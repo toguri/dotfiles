@@ -126,7 +126,8 @@ if dein#load_state('~/.cache/dein')
 
   " scrooloose/nerdtree
   call dein#add('scrooloose/nerdtree') 
-  nnoremap <silent><C-e> :NERDTreeToggle<CR> 
+  nmap <silent><C-e> :NERDTreeToggle<CR> 
+  autocmd VimEnter * execute 'NERDTree'
 
   call dein#end()
   call dein#save_state()
