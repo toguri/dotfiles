@@ -46,3 +46,14 @@ zinit light zdharma/history-search-multi-word
 # git-open
 zinit light paulirish/git-open
 
+# 
+eval "$(rbenv init - zsh)"
+
+#
+eval "$(pyenv init -)"
+
+#
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+
+# 
+export PATH=$HOME/.nodebrew/current/bin:$PATH
