@@ -47,7 +47,7 @@ zinit light zdharma/history-search-multi-word
 zinit light paulirish/git-open
 
 # 
-eval "$(rbenv init - zsh)"
+#eval "$(rbenv init - zsh)"
 
 #
 eval "$(pyenv init -)"
