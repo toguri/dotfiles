@@ -1,6 +1,6 @@
 ```
 git clone https://github.com/toguri/dotfiles.git
-ln -s src/dotfiles/.zshrc ~/.zshrc
+ln -s ./.zshrc ~/.zshrc
 ```
 
 if you use zinit ...
