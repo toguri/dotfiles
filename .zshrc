@@ -57,3 +57,4 @@ alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 
 # 
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$HOME/.cargo/env:$PATH
